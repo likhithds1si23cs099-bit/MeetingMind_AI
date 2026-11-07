@@ -1,50 +1,60 @@
 # MeetingMind AI
-### AI Meeting Summarizer, Decision Tracker & Action-Item Agent
+<p align="center"><img src="./assets/project-banner.svg" alt="MeetingMind AI — meeting summarizer and action tracker" width="100%"/></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <img src="https://img.shields.io/badge/UI-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/>
   <img src="https://img.shields.io/badge/LLM-Qwen2.5-7C3AED?style=for-the-badge" alt="Qwen2.5"/>
-  <img src="https://img.shields.io/badge/Inference-Ollama-111827?style=for-the-badge" alt="Ollama"/>
+  <img src="https://img.shields.io/badge/Runtime-Ollama-111827?style=for-the-badge" alt="Ollama"/>
+  <img src="https://img.shields.io/badge/Mode-Local--first-0F766E?style=for-the-badge" alt="Local first"/>
 </p>
 
-A local-first GenAI student project that transforms meeting transcripts into structured, reviewable outputs: summaries, key points, decisions, action items, owners, deadlines, open questions and transcript-grounded Q&A.
+<p align="center"><b>From conversations to clear next steps.</b><br/>A local-first GenAI assistant for meeting summaries, decisions and action tracking.</p>
 
-## ✨ Features
+## 🎯 The problem it solves
+Meeting notes are often long, scattered and difficult to follow up. MeetingMind AI transforms a transcript into a structured report that makes important information easier to review and act on.
 
-- 🌙 Streamlit dashboard with a dark interface.
-- 📄 Paste a transcript or upload a `.txt` file.
-- 🧠 Run local Qwen2.5 inference through Ollama.
-- 📝 Generate structured meeting summaries and key points.
-- ✅ Extract decisions, action items, owners and deadlines.
-- 🔎 Review evidence fields to help verify extracted information.
-- 💬 Ask questions grounded in the supplied transcript.
-- 💾 Keep local meeting history and download reports as JSON.
-- 📴 Use a clearly labelled rule-based preview when Ollama is unavailable.
-- 📊 Prepare QMSum samples and run baseline ROUGE evaluation.
+## ✨ Key capabilities
+| Capability | Output |
+|---|---|
+| 📄 Transcript input | Paste meeting text or upload a `.txt` file |
+| 📝 Smart summary | Concise overview and key discussion points |
+| 📌 Decision tracking | Decisions identified from the transcript |
+| ✅ Action-item extraction | Tasks, owners and deadlines |
+| ❓ Open questions | Items that still need clarification |
+| 🔍 Evidence review | Inspect transcript evidence for extracted details |
+| 💬 Meeting Q&A | Ask questions grounded in the supplied transcript |
+| 💾 Export & history | Keep local history and download JSON reports |
 
-## 🧰 Tech Stack
+## 🧠 Agent workflow
+```mermaid
+flowchart TD
+    A[Paste transcript or upload TXT] --> B[Text preprocessing]
+    B --> C[Local Qwen2.5 model via Ollama]
+    C --> D[Summary and key points]
+    C --> E[Decision extraction]
+    C --> F[Action-item extraction]
+    D --> G[Evidence and consistency review]
+    E --> G
+    F --> G
+    G --> H[Structured meeting report]
+    H --> I[Transcript-grounded Q&A]
+    H --> J[JSON export and local history]
+```
 
+## 🧰 Tech stack
 | Area | Technology |
 |---|---|
 | Language | Python |
-| User interface | Streamlit |
+| Interface | Streamlit |
 | Local LLM runtime | Ollama |
 | Model | Qwen2.5 |
-| Structured data | Pydantic-ready report fields |
+| Structured report fields | Pydantic-ready data |
 | Optional database | MongoDB |
-| Evaluation | QMSum, ROUGE |
+| Dataset / evaluation | QMSum, ROUGE |
 
-## 🖥️ Requirements
-
-- Python 3.10 or newer
-- Ollama for full local LLM inference
-- 8 GB RAM recommended; performance depends on the selected model and machine
-
-## ⚙️ Setup on macOS
-
-Clone the repository and open its folder:
-
+## ⚙️ Run locally (macOS)
+**1. Clone and install dependencies**
 ```bash
 git clone https://github.com/likhithds1si23cs099-bit/MeetingMind_AI.git
 cd MeetingMind_AI
@@ -53,92 +63,50 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Install Ollama from [ollama.com/download](https://ollama.com/download), then download the model:
+**2. Install and start Ollama**
+Install from [ollama.com/download](https://ollama.com/download), then run:
 
 ```bash
 ollama pull qwen2.5:3b
 ollama serve
 ```
 
-Open a second terminal in the project folder, activate the environment and run:
+**3. Start the application** (in a second terminal opened in the project folder):
 
 ```bash
 source .venv/bin/activate
 streamlit run app.py
 ```
 
-The app should open at **http://localhost:8501**.
+Open **http://localhost:8501** in your browser.
 
-## 🧭 How to use
-
-1. Open **Analyze Meeting** in the sidebar.
+## 🪄 Try the application
+1. Open **Analyze Meeting** from the sidebar.
 2. Enter a meeting title.
-3. Paste the transcript or upload a `.txt` file.
+3. Paste a transcript or upload a `.txt` file.
 4. Select **Generate meeting report**.
-5. Review the summary, decisions, action items, open questions and verification details.
-6. Open **Ask Meeting** to ask questions about the transcript.
-7. Download the report as JSON when finished.
+5. Review the summary, decisions, action items and open questions.
+6. Open **Ask Meeting** to ask a question about the transcript.
+7. Download the report as JSON.
 
-## 🏗️ Workflow
-
-```text
-Meeting transcript / TXT upload
-             |
-             v
-     Text preprocessing
-             |
-             v
-  Local Qwen2.5 via Ollama
-             |
-     +-------+--------+
-     |       |        |
-   Summary Decisions Action items
-     |       |        |
-     +-------+--------+
-             |
-             v
-   Evidence / consistency review
-             |
-             v
-  Report + transcript-grounded Q&A
-             |
-             v
-       Streamlit interface
-```
-
-## 📚 Dataset & Evaluation
-
-The repository includes scripts for preparing a QMSum sample and running a baseline ROUGE evaluation.
-
-Dataset sources:
-- [QMSum project](https://github.com/Yale-LILY/QMSum)
-- [QMSum on Hugging Face](https://huggingface.co/datasets/pszemraj/qmsum-cleaned)
-
-Prepare a sample:
+## 📊 Dataset and evaluation
+The project includes scripts for preparing a QMSum sample and running a baseline ROUGE evaluation.
 
 ```bash
 python dataset_prepare.py --limit 1000
-```
-
-Run evaluation:
-
-```bash
 python evaluation.py --input data/qmsum_sample.jsonl --limit 100
 ```
 
-ROUGE is a summary-overlap baseline; it does not establish that extracted owners, decisions or deadlines are correct. Those require additional evaluation.
+Sources: [QMSum project](https://github.com/Yale-LILY/QMSum) · [QMSum dataset on Hugging Face](https://huggingface.co/datasets/pszemraj/qmsum-cleaned)
 
-## 🗄️ Optional MongoDB
+**Evaluation note:** ROUGE measures summary text overlap. It does not by itself verify whether extracted decisions, owners or deadlines are factually correct.
 
-By default, meeting history is stored locally in `data/meetings.json`. To use MongoDB, copy `.env.example` to `.env`, configure `MONGODB_URI` and `MONGODB_DATABASE`, then restart the app. Keep credentials out of Git.
-
-## ⚠️ Limitations & Responsible Use
-
-- The offline fallback is a rule-based preview, not an LLM response.
-- LLM-generated decisions, owners and deadlines can be incorrect; verify them against the transcript.
+## 🔒 Privacy, limitations and responsible use
+- The app is designed for local-first processing with Ollama.
+- The rule-based fallback is a preview mode, not a full LLM response.
+- Always verify generated decisions, owners and deadlines against the original transcript.
 - This prototype does not automatically send emails, assign tasks or record meetings.
-- Do not upload confidential meeting transcripts to services without permission.
+- Do not upload confidential transcripts to services without permission.
 
 ---
-
-<p align="center"><b>Turn conversations into clear next steps.</b></p>
+<p align="center"><b>Make every meeting easier to understand — and easier to follow through.</b></p>
