@@ -1,0 +1,1827 @@
+[
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 09:13 AM",
+    "transcript": "Project Alpha Weekly Planning Meeting\nDate: 18 October 2026\nParticipants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\nMeera: The integration fixes need one more day of verification. I suggest we move the staging deployment to 24 October.\nAnanya: Agreed. The staging deployment is approved for 24 October.\nMeera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October.\nRahul: We also decided to freeze new feature requests until the staging deployment is complete.\nAnanya: Yes, no new features until after staging. That is a firm decision.\nAnanya: The budget estimate is still pending approval from finance. Who can confirm the final amount?\nMeera: We have not received the updated estimate yet. I think Priya from finance has it.\nAnanya: I will follow up with Priya by Friday to get the revised budget.\nRahul: Should we also plan a load test before the production release?\nAnanya: Good question. We have not decided that yet. Let's discuss it in the next meeting.\nRahul: The next review meeting will be on 26 October at 10 AM.\nAnanya: Great. To summarize: Rahul shares test cases by 20 October, Meera shares the QA report by 23 October, staging deployment on 24 October, and I follow up with finance by Friday.",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "The team finalized the testing plan for Project Alpha and confirmed the staging deployment date. They also decided to freeze new feature requests until the staging deployment is complete.",
+      "key_points": [
+        "finalize testing plan",
+        "staging deployment on 24 October",
+        "freeze new feature requests until staging deployment is complete"
+      ],
+      "decisions": [
+        {
+          "decision": "staging deployment on 24 October",
+          "reason": "Agreed",
+          "participants": "Ananya, Meera",
+          "evidence": "Ananya: Agreed. The staging deployment is approved for 24 October."
+        },
+        {
+          "decision": "freeze new feature requests until staging deployment is complete",
+          "reason": "Yes, no new features until after staging. That is a firm decision.",
+          "participants": "Ananya, Rahul",
+          "evidence": "Ananya: Yes, no new features until after staging. That is a firm decision."
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul shares test cases by 20 October",
+          "owner": "Rahul",
+          "deadline": "20 October",
+          "status": "Open",
+          "evidence": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera shares QA report by 23 October",
+          "owner": "Meera",
+          "deadline": "23 October",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October."
+        },
+        {
+          "task": "Ananya follows up with finance by Friday",
+          "owner": "Anaya",
+          "deadline": "Friday",
+          "status": "Open",
+          "evidence": "Ananya: I will follow up with Priya by Friday to get the revised budget."
+        }
+      ],
+      "open_questions": [
+        "should we plan a load test before the production release"
+      ],
+      "overall_status": "On track",
+      "verification_notes": [
+        "budget estimate still pending approval from finance"
+      ],
+      "analysis_mode": "Ollama / llama3:latest"
+    }
+  },
+  {
+    "title": "likhith planning meeting",
+    "created_at": "07 Nov 2026, 08:58 AM",
+    "transcript": "Project Alpha Weekly Planning Meeting\nDate: 18 October 2026\nParticipants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\nMeera: The integration fixes need one more day of verification. I suggest we move the staging deployment to 24 October.\nAnanya: Agreed. The staging deployment is approved for 24 October.\nMeera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October.\nRahul: We also decided to freeze new feature requests until the staging deployment is complete.\nAnanya: Yes, no new features until after staging. That is a firm decision.\nAnanya: The budget estimate is still pending approval from finance. Who can confirm the final amount?\nMeera: We have not received the updated estimate yet. I think Priya from finance has it.\nAnanya: I will follow up with Priya by Friday to get the revised budget.\nRahul: Should we also plan a load test before the production release?\nAnanya: Good question. We have not decided that yet. Let's discuss it in the next meeting.\nRahul: The next review meeting will be on 26 October at 10 AM.\nAnanya: Great. To summarize: Rahul shares test cases by 20 October, Meera shares the QA report by 23 October, staging deployment on 24 October, and I follow up with finance by Friday.",
+    "report": {
+      "meeting_title": "likhith planning meeting",
+      "summary": "The team finalizes the testing plan for Project Alpha and confirms the staging deployment date. The budget estimate is still pending approval from finance.",
+      "key_points": [
+        "Finalize testing plan for Project Alpha",
+        "Confirm staging deployment date",
+        "Freeze new feature requests until staging deployment"
+      ],
+      "decisions": [
+        {
+          "decision": "Staging deployment approved for 24 October",
+          "reason": "Not specified",
+          "participants": "Ananya, Meera",
+          "evidence": "Ananya: Agreed. The staging deployment is approved for 24 October."
+        },
+        {
+          "decision": "No new features until after staging deployment",
+          "reason": "Not specified",
+          "participants": "Ananya, Rahul",
+          "evidence": "Ananya: Yes, no new features until after staging. That is a firm decision."
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul shares test cases by 20 October",
+          "owner": "Rahul",
+          "deadline": "20 October",
+          "status": "Open",
+          "evidence": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera shares QA report by 23 October",
+          "owner": "Meera",
+          "deadline": "23 October",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October."
+        },
+        {
+          "task": "Ananya follows up with finance by Friday",
+          "owner": "Anaya",
+          "deadline": "Friday",
+          "status": "Open",
+          "evidence": "Ananya: I will follow up with Priya by Friday to get the revised budget."
+        }
+      ],
+      "open_questions": [
+        "Plan a load test before the production release"
+      ],
+      "overall_status": "On track",
+      "verification_notes": [
+        "The budget estimate is still pending approval from finance"
+      ],
+      "analysis_mode": "Ollama / llama3:latest"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 08:50 AM",
+    "transcript": "Project Alpha Weekly Planning Meeting\nDate: 18 October 2026\nParticipants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\nMeera: The integration fixes need one more day of verification. I suggest we move the staging deployment to 24 October.\nAnanya: Agreed. The staging deployment is approved for 24 October.\nMeera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October.\nRahul: We also decided to freeze new feature requests until the staging deployment is complete.\nAnanya: Yes, no new features until after staging. That is a firm decision.\nAnanya: The budget estimate is still pending approval from finance. Who can confirm the final amount?\nMeera: We have not received the updated estimate yet. I think Priya from finance has it.\nAnanya: I will follow up with Priya by Friday to get the revised budget.\nRahul: Should we also plan a load test before the production release?\nAnanya: Good question. We have not decided that yet. Let's discuss it in the next meeting.\nRahul: The next review meeting will be on 26 October at 10 AM.\nAnanya: Great. To summarize: Rahul shares test cases by 20 October, Meera shares the QA report by 23 October, staging deployment on 24 October, and I follow up with finance by Friday.",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "The team finalized the testing plan and confirmed the staging deployment date for Project Alpha. They also decided to freeze new feature requests until the staging deployment is complete. A load test before the production release was left for further discussion.",
+      "key_points": [
+        "Finalized testing plan",
+        "Confirmed staging deployment date",
+        "Frozen new feature requests until staging deployment",
+        "Load test before production release to be discussed further"
+      ],
+      "decisions": [
+        {
+          "decision": "Staging deployment approved for 24 October",
+          "reason": "Not specified",
+          "participants": "Ananya",
+          "evidence": "Ananya: Agreed. The staging deployment is approved for 24 October."
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul to share API test cases by 20 October",
+          "owner": "Rahul",
+          "deadline": "20 October",
+          "status": "Open",
+          "evidence": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera to share QA report by 23 October",
+          "owner": "Meera",
+          "deadline": "23 October",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October."
+        },
+        {
+          "task": "Ananya to follow up with finance by Friday",
+          "owner": "Ananya",
+          "deadline": "Friday",
+          "status": "Open",
+          "evidence": "Ananya: I will follow up with Priya by Friday to get the revised budget."
+        }
+      ],
+      "open_questions": [
+        "Load test before production release to be discussed further"
+      ],
+      "overall_status": "On track",
+      "verification_notes": [
+        "Uncertainty around budget estimate"
+      ],
+      "analysis_mode": "Ollama / llama3:latest"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 08:38 AM",
+    "transcript": "Project Alpha Weekly Planning Meeting\nDate: 18 October 2026\nParticipants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\nMeera: The integration fixes need one more day of verification. I suggest we move the staging deployment to 24 October.\nAnanya: Agreed. The staging deployment is approved for 24 October.\nMeera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October.\nRahul: We also decided to freeze new feature requests until the staging deployment is complete.\nAnanya: Yes, no new features until after staging. That is a firm decision.\nAnanya: The budget estimate is still pending approval from finance. Who can confirm the final amount?\nMeera: We have not received the updated estimate yet. I think Priya from finance has it.\nAnanya: I will follow up with Priya by Friday to get the revised budget.\nRahul: Should we also plan a load test before the production release?\nAnanya: Good question. We have not decided that yet. Let's discuss it in the next meeting.\nRahul: The next review meeting will be on 26 October at 10 AM.\nAnanya: Great. To summarize: Rahul shares test cases by 20 October, Meera shares the QA report by 23 October, staging deployment on 24 October, and I follow up with finance by Friday.",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "The team finalized the testing plan, confirmed the staging deployment date, and discussed the budget and production release plans. They also agreed to freeze new feature requests until the staging deployment is complete.",
+      "key_points": [
+        "Finalize the testing plan for Project Alpha",
+        "Confirm the staging deployment date",
+        "Freeze new feature requests until staging deployment is complete"
+      ],
+      "decisions": [
+        {
+          "decision": "Agreed to staging deployment date",
+          "reason": "Not specified",
+          "participants": "Ananya, Meera",
+          "evidence": "exact short supporting quote: 'The staging deployment is approved for 24 October.'"
+        },
+        {
+          "decision": "Freeze new feature requests until staging deployment is complete",
+          "reason": "Not specified",
+          "participants": "Ananya, Rahul",
+          "evidence": "exact short supporting quote: 'Yes, no new features until after staging. That is a firm decision.'"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul to prepare API test cases and share them with the team by 20 October",
+          "owner": "Rahul",
+          "deadline": "20 October",
+          "status": "Open",
+          "evidence": "exact short supporting quote: 'I will prepare the API test cases and share them with the team by 20 October.'"
+        },
+        {
+          "task": "Meera to verify integration fixes before staging deployment and share QA report by 23 October",
+          "owner": "Meera",
+          "deadline": "23 October",
+          "status": "Open",
+          "evidence": "exact short supporting quote: 'I will verify the integration fixes before the staging deployment and share the QA report by 23 October.'"
+        },
+        {
+          "task": "Ananya to follow up with Priya from finance by Friday to get the revised budget",
+          "owner": "Ananya",
+          "deadline": "Friday",
+          "status": "Open",
+          "evidence": "exact short supporting quote: 'I will follow up with Priya by Friday to get the revised budget.'"
+        }
+      ],
+      "open_questions": [
+        "Should we plan a load test before the production release?"
+      ],
+      "overall_status": "On track",
+      "verification_notes": [
+        "The budget estimate is still pending approval from finance"
+      ],
+      "analysis_mode": "Ollama / llama3:latest"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 08:36 AM",
+    "transcript": "Project Alpha Weekly Planning Meeting\nDate: 18 October 2026\nParticipants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\nMeera: The integration fixes need one more day of verification. I suggest we move the staging deployment to 24 October.\nAnanya: Agreed. The staging deployment is approved for 24 October.\nMeera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October.\nRahul: We also decided to freeze new feature requests until the staging deployment is complete.\nAnanya: Yes, no new features until after staging. That is a firm decision.\nAnanya: The budget estimate is still pending approval from finance. Who can confirm the final amount?\nMeera: We have not received the updated estimate yet. I think Priya from finance has it.\nAnanya: I will follow up with Priya by Friday to get the revised budget.\nRahul: Should we also plan a load test before the production release?\nAnanya: Good question. We have not decided that yet. Let's discuss it in the next meeting.\nRahul: The next review meeting will be on 26 October at 10 AM.\nAnanya: Great. To summarize: Rahul shares test cases by 20 October, Meera shares the QA report by 23 October, staging deployment on 24 October, and I follow up with finance by Friday.",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "Project Alpha Weekly Planning Meeting Date: 18 October 2026 Participants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer) Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date. Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+      "key_points": [
+        "Project Alpha Weekly Planning Meeting",
+        "Date: 18 October 2026",
+        "Participants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)",
+        "Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.",
+        "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+        "Meera: The integration fixes need one more day of verification. I suggest we move the staging deployment to 24 October."
+      ],
+      "decisions": [
+        {
+          "decision": "Ananya: Agreed. The staging deployment is approved for 24 October.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Rahul: We also decided to freeze new feature requests until the staging deployment is complete.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Ananya: Yes, no new features until after staging. That is a firm decision.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Ananya: Good question. We have not decided that yet. Let's discuss it in the next meeting.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October."
+        },
+        {
+          "task": "Ananya: I will follow up with Priya by Friday to get the revised budget.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: I will follow up with Priya by Friday to get the revised budget."
+        },
+        {
+          "task": "Rahul: Should we also plan a load test before the production release?",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: Should we also plan a load test before the production release?"
+        },
+        {
+          "task": "Rahul: The next review meeting will be on 26 October at 10 AM.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The next review meeting will be on 26 October at 10 AM."
+        }
+      ],
+      "open_questions": [
+        "Ananya: The budget estimate is still pending approval from finance. Who can confirm the final amount?",
+        "Rahul: Should we also plan a load test before the production release?"
+      ],
+      "overall_status": "Review required",
+      "verification_notes": [
+        "Offline demo mode was used. Run Ollama with Qwen2.5 for AI extraction.",
+        "Confirm owners and deadlines against the original transcript.",
+        "AI connection detail: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+      ],
+      "analysis_mode": "Offline demo fallback"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 08:36 AM",
+    "transcript": "Project Alpha Weekly Planning Meeting\nDate: 18 October 2026\nParticipants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\nMeera: The integration fixes need one more day of verification. I suggest we move the staging deployment to 24 October.\nAnanya: Agreed. The staging deployment is approved for 24 October.\nMeera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October.\nRahul: We also decided to freeze new feature requests until the staging deployment is complete.\nAnanya: Yes, no new features until after staging. That is a firm decision.\nAnanya: The budget estimate is still pending approval from finance. Who can confirm the final amount?\nMeera: We have not received the updated estimate yet. I think Priya from finance has it.\nAnanya: I will follow up with Priya by Friday to get the revised budget.\nRahul: Should we also plan a load test before the production release?\nAnanya: Good question. We have not decided that yet. Let's discuss it in the next meeting.\nRahul: The next review meeting will be on 26 October at 10 AM.\nAnanya: Great. To summarize: Rahul shares test cases by 20 October, Meera shares the QA report by 23 October, staging deployment on 24 October, and I follow up with finance by Friday.",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "Project Alpha Weekly Planning Meeting Date: 18 October 2026 Participants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer) Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date. Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+      "key_points": [
+        "Project Alpha Weekly Planning Meeting",
+        "Date: 18 October 2026",
+        "Participants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)",
+        "Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.",
+        "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+        "Meera: The integration fixes need one more day of verification. I suggest we move the staging deployment to 24 October."
+      ],
+      "decisions": [
+        {
+          "decision": "Ananya: Agreed. The staging deployment is approved for 24 October.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Rahul: We also decided to freeze new feature requests until the staging deployment is complete.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Ananya: Yes, no new features until after staging. That is a firm decision.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Ananya: Good question. We have not decided that yet. Let's discuss it in the next meeting.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October."
+        },
+        {
+          "task": "Ananya: I will follow up with Priya by Friday to get the revised budget.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: I will follow up with Priya by Friday to get the revised budget."
+        },
+        {
+          "task": "Rahul: Should we also plan a load test before the production release?",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: Should we also plan a load test before the production release?"
+        },
+        {
+          "task": "Rahul: The next review meeting will be on 26 October at 10 AM.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The next review meeting will be on 26 October at 10 AM."
+        }
+      ],
+      "open_questions": [
+        "Ananya: The budget estimate is still pending approval from finance. Who can confirm the final amount?",
+        "Rahul: Should we also plan a load test before the production release?"
+      ],
+      "overall_status": "Review required",
+      "verification_notes": [
+        "Offline demo mode was used. Run Ollama with Qwen2.5 for AI extraction.",
+        "Confirm owners and deadlines against the original transcript.",
+        "AI connection detail: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+      ],
+      "analysis_mode": "Offline demo fallback"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 08:36 AM",
+    "transcript": "Project Alpha Weekly Planning Meeting\nDate: 18 October 2026\nParticipants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\nMeera: The integration fixes need one more day of verification. I suggest we move the staging deployment to 24 October.\nAnanya: Agreed. The staging deployment is approved for 24 October.\nMeera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October.\nRahul: We also decided to freeze new feature requests until the staging deployment is complete.\nAnanya: Yes, no new features until after staging. That is a firm decision.\nAnanya: The budget estimate is still pending approval from finance. Who can confirm the final amount?\nMeera: We have not received the updated estimate yet. I think Priya from finance has it.\nAnanya: I will follow up with Priya by Friday to get the revised budget.\nRahul: Should we also plan a load test before the production release?\nAnanya: Good question. We have not decided that yet. Let's discuss it in the next meeting.\nRahul: The next review meeting will be on 26 October at 10 AM.\nAnanya: Great. To summarize: Rahul shares test cases by 20 October, Meera shares the QA report by 23 October, staging deployment on 24 October, and I follow up with finance by Friday.",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "Project Alpha Weekly Planning Meeting Date: 18 October 2026 Participants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer) Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date. Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+      "key_points": [
+        "Project Alpha Weekly Planning Meeting",
+        "Date: 18 October 2026",
+        "Participants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)",
+        "Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.",
+        "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+        "Meera: The integration fixes need one more day of verification. I suggest we move the staging deployment to 24 October."
+      ],
+      "decisions": [
+        {
+          "decision": "Ananya: Agreed. The staging deployment is approved for 24 October.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Rahul: We also decided to freeze new feature requests until the staging deployment is complete.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Ananya: Yes, no new features until after staging. That is a firm decision.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Ananya: Good question. We have not decided that yet. Let's discuss it in the next meeting.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October."
+        },
+        {
+          "task": "Ananya: I will follow up with Priya by Friday to get the revised budget.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: I will follow up with Priya by Friday to get the revised budget."
+        },
+        {
+          "task": "Rahul: Should we also plan a load test before the production release?",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: Should we also plan a load test before the production release?"
+        },
+        {
+          "task": "Rahul: The next review meeting will be on 26 October at 10 AM.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The next review meeting will be on 26 October at 10 AM."
+        }
+      ],
+      "open_questions": [
+        "Ananya: The budget estimate is still pending approval from finance. Who can confirm the final amount?",
+        "Rahul: Should we also plan a load test before the production release?"
+      ],
+      "overall_status": "Review required",
+      "verification_notes": [
+        "Offline demo mode was used. Run Ollama with Qwen2.5 for AI extraction.",
+        "Confirm owners and deadlines against the original transcript.",
+        "AI connection detail: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+      ],
+      "analysis_mode": "Offline demo fallback"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 08:36 AM",
+    "transcript": "Project Alpha Weekly Planning Meeting\nDate: 18 October 2026\nParticipants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\nMeera: The integration fixes need one more day of verification. I suggest we move the staging deployment to 24 October.\nAnanya: Agreed. The staging deployment is approved for 24 October.\nMeera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October.\nRahul: We also decided to freeze new feature requests until the staging deployment is complete.\nAnanya: Yes, no new features until after staging. That is a firm decision.\nAnanya: The budget estimate is still pending approval from finance. Who can confirm the final amount?\nMeera: We have not received the updated estimate yet. I think Priya from finance has it.\nAnanya: I will follow up with Priya by Friday to get the revised budget.\nRahul: Should we also plan a load test before the production release?\nAnanya: Good question. We have not decided that yet. Let's discuss it in the next meeting.\nRahul: The next review meeting will be on 26 October at 10 AM.\nAnanya: Great. To summarize: Rahul shares test cases by 20 October, Meera shares the QA report by 23 October, staging deployment on 24 October, and I follow up with finance by Friday.",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "Project Alpha Weekly Planning Meeting Date: 18 October 2026 Participants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer) Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date. Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+      "key_points": [
+        "Project Alpha Weekly Planning Meeting",
+        "Date: 18 October 2026",
+        "Participants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)",
+        "Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.",
+        "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+        "Meera: The integration fixes need one more day of verification. I suggest we move the staging deployment to 24 October."
+      ],
+      "decisions": [
+        {
+          "decision": "Ananya: Agreed. The staging deployment is approved for 24 October.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Rahul: We also decided to freeze new feature requests until the staging deployment is complete.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Ananya: Yes, no new features until after staging. That is a firm decision.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Ananya: Good question. We have not decided that yet. Let's discuss it in the next meeting.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October."
+        },
+        {
+          "task": "Ananya: I will follow up with Priya by Friday to get the revised budget.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: I will follow up with Priya by Friday to get the revised budget."
+        },
+        {
+          "task": "Rahul: Should we also plan a load test before the production release?",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: Should we also plan a load test before the production release?"
+        },
+        {
+          "task": "Rahul: The next review meeting will be on 26 October at 10 AM.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The next review meeting will be on 26 October at 10 AM."
+        }
+      ],
+      "open_questions": [
+        "Ananya: The budget estimate is still pending approval from finance. Who can confirm the final amount?",
+        "Rahul: Should we also plan a load test before the production release?"
+      ],
+      "overall_status": "Review required",
+      "verification_notes": [
+        "Offline demo mode was used. Run Ollama with Qwen2.5 for AI extraction.",
+        "Confirm owners and deadlines against the original transcript.",
+        "AI connection detail: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+      ],
+      "analysis_mode": "Offline demo fallback"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 08:36 AM",
+    "transcript": "Project Alpha Weekly Planning Meeting\nDate: 18 October 2026\nParticipants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\nMeera: The integration fixes need one more day of verification. I suggest we move the staging deployment to 24 October.\nAnanya: Agreed. The staging deployment is approved for 24 October.\nMeera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October.\nRahul: We also decided to freeze new feature requests until the staging deployment is complete.\nAnanya: Yes, no new features until after staging. That is a firm decision.\nAnanya: The budget estimate is still pending approval from finance. Who can confirm the final amount?\nMeera: We have not received the updated estimate yet. I think Priya from finance has it.\nAnanya: I will follow up with Priya by Friday to get the revised budget.\nRahul: Should we also plan a load test before the production release?\nAnanya: Good question. We have not decided that yet. Let's discuss it in the next meeting.\nRahul: The next review meeting will be on 26 October at 10 AM.\nAnanya: Great. To summarize: Rahul shares test cases by 20 October, Meera shares the QA report by 23 October, staging deployment on 24 October, and I follow up with finance by Friday.",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "Project Alpha Weekly Planning Meeting Date: 18 October 2026 Participants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer) Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date. Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+      "key_points": [
+        "Project Alpha Weekly Planning Meeting",
+        "Date: 18 October 2026",
+        "Participants: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)",
+        "Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.",
+        "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+        "Meera: The integration fixes need one more day of verification. I suggest we move the staging deployment to 24 October."
+      ],
+      "decisions": [
+        {
+          "decision": "Ananya: Agreed. The staging deployment is approved for 24 October.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Rahul: We also decided to freeze new feature requests until the staging deployment is complete.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Ananya: Yes, no new features until after staging. That is a firm decision.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Ananya: Good question. We have not decided that yet. Let's discuss it in the next meeting.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes before the staging deployment and share the QA report by 23 October."
+        },
+        {
+          "task": "Ananya: I will follow up with Priya by Friday to get the revised budget.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: I will follow up with Priya by Friday to get the revised budget."
+        },
+        {
+          "task": "Rahul: Should we also plan a load test before the production release?",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: Should we also plan a load test before the production release?"
+        },
+        {
+          "task": "Rahul: The next review meeting will be on 26 October at 10 AM.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The next review meeting will be on 26 October at 10 AM."
+        }
+      ],
+      "open_questions": [
+        "Ananya: The budget estimate is still pending approval from finance. Who can confirm the final amount?",
+        "Rahul: Should we also plan a load test before the production release?"
+      ],
+      "overall_status": "Review required",
+      "verification_notes": [
+        "Offline demo mode was used. Run Ollama with Qwen2.5 for AI extraction.",
+        "Confirm owners and deadlines against the original transcript.",
+        "AI connection detail: 404 Client Error: Not Found for url: http://localhost:11434/api/generate"
+      ],
+      "analysis_mode": "Offline demo fallback"
+    }
+  },
+  {
+    "title": "likhith title",
+    "created_at": "07 Nov 2026, 07:05 AM",
+    "transcript": "MEETING TITLE: Project Alpha Weekly Planning Meeting\nDATE: 18 October 2026\nPARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\n\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\n\nMeera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases.\n\nAnanya: Can we complete API testing by 22 October?\n\nRahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October.\n\nMeera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes.\n\nAnanya: Agreed. The staging deployment is approved for 24 October.\n\nRahul: I will also share the API test results after testing is complete.\n\nAnanya: The revised budget estimate is still pending approval from the finance team. We need confirmation by Friday.\n\nMeera: I do not have the final budget approval yet.\n\nAnanya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question.\n\nAnanya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval.\n\nEND OF MEETING TRANSCRIPT\n",
+    "report": {
+      "meeting_title": "likhith title",
+      "summary": "The team finalized the testing plan for Project Alpha and confirmed the staging deployment date. Rahul will share API test cases by 20 October and complete API testing by 22 October. Meera will verify integration fixes. The staging deployment is scheduled for 24 October. The revised budget estimate is still pending approval from the finance team.",
+      "key_points": [
+        "finalize testing plan for Project Alpha",
+        "confirm staging deployment date",
+        "Rahul to share API test cases by 20 October and complete API testing by 22 October",
+        "Meera to verify integration fixes",
+        "staging deployment scheduled for 24 October",
+        "revised budget estimate pending approval from finance team"
+      ],
+      "decisions": [
+        {
+          "decision": "staging deployment is approved for 24 October",
+          "reason": "agreed upon by the team",
+          "participants": "Ananya, Rahul, Meera",
+          "evidence": "Ananya: Agreed. The staging deployment is approved for 24 October."
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul to share API test cases by 20 October and complete API testing by 22 October",
+          "owner": "Rahul",
+          "deadline": "20 October",
+          "status": "Open",
+          "evidence": "Rahul: I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera to verify integration fixes",
+          "owner": "Meera",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases."
+        },
+        {
+          "task": "follow up on pending budget approval",
+          "owner": "Ananya",
+          "deadline": "Friday",
+          "status": "Open",
+          "evidence": "Ananya: I will follow up with Finance and update everyone. The budget approval remains an open question."
+        }
+      ],
+      "open_questions": [
+        "budget approval from finance team"
+      ],
+      "overall_status": "On track",
+      "verification_notes": [
+        "uncertainty around budget approval timing"
+      ],
+      "analysis_mode": "Ollama / llama3:latest"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 07:03 AM",
+    "transcript": "MEETING TITLE: Project Alpha Weekly Planning Meeting\nDATE: 18 October 2026\nPARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\n\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\n\nMeera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases.\n\nAnanya: Can we complete API testing by 22 October?\n\nRahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October.\n\nMeera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes.\n\nAnanya: Agreed. The staging deployment is approved for 24 October.\n\nRahul: I will also share the API test results after testing is complete.\n\nAnanya: The revised budget estimate is still pending approval from the finance team. We need confirmation by Friday.\n\nMeera: I do not have the final budget approval yet.\n\nAnanya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question.\n\nAnanya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval.\n\nEND OF MEETING TRANSCRIPT\n",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "The team finalized the testing plan for Project Alpha, confirmed the staging deployment date, and discussed the API development and testing progress.",
+      "key_points": [
+        "Finalize testing plan for Project Alpha",
+        "API development almost complete",
+        "Staging deployment scheduled for 24 October"
+      ],
+      "decisions": [
+        {
+          "decision": "Staging deployment approved for 24 October",
+          "reason": "Not specified",
+          "participants": "Ananya, Rahul, Meera",
+          "evidence": "The staging deployment is approved for 24 October."
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Share API test cases by 20 October",
+          "owner": "Rahul",
+          "deadline": "20 October",
+          "status": "Open",
+          "evidence": "I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Verify integration fixes",
+          "owner": "Meera",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "I will verify the integration fixes and complete the integration checks after Rahul shares the test cases."
+        },
+        {
+          "task": "Complete API testing by 22 October",
+          "owner": "Rahul",
+          "deadline": "22 October",
+          "status": "Open",
+          "evidence": "Yes, I will take responsibility for API testing and aim to finish it by 22 October."
+        },
+        {
+          "task": "Follow up on pending budget approval",
+          "owner": "Ananya",
+          "deadline": "Friday",
+          "status": "Open",
+          "evidence": "I will follow up with Finance and update everyone. The budget approval remains an open question."
+        }
+      ],
+      "open_questions": [
+        "Budget approval remains pending"
+      ],
+      "overall_status": "On track",
+      "verification_notes": [
+        "Budget approval remains pending"
+      ],
+      "analysis_mode": "Ollama / llama3:latest"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 07:00 AM",
+    "transcript": "MEETING TITLE: Project Alpha Weekly Planning Meeting\nDATE: 18 October 2026\nPARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\n\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\n\nMeera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases.\n\nAnanya: Can we complete API testing by 22 October?\n\nRahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October.\n\nMeera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes.\n\nAnanya: Agreed. The staging deployment is approved for 24 October.\n\nRahul: I will also share the API test results after testing is complete.\n\nAnanya: The revised budget estimate is still pending approval from the finance team. We need confirmation by Friday.\n\nMeera: I do not have the final budget approval yet.\n\nAnanya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question.\n\nAnanya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval.\n\nEND OF MEETING TRANSCRIPT\n",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "MEETING TITLE: Project Alpha Weekly Planning Meeting DATE: 18 October 2026 PARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer) Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date. Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+      "key_points": [
+        "MEETING TITLE: Project Alpha Weekly Planning Meeting",
+        "DATE: 18 October 2026",
+        "PARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)",
+        "Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.",
+        "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+        "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases."
+      ],
+      "decisions": [
+        {
+          "decision": "Ananya: Agreed. The staging deployment is approved for 24 October.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases."
+        },
+        {
+          "task": "Rahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October."
+        },
+        {
+          "task": "Meera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes."
+        },
+        {
+          "task": "Rahul: I will also share the API test results after testing is complete.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: I will also share the API test results after testing is complete."
+        },
+        {
+          "task": "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question."
+        },
+        {
+          "task": "Ananya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval."
+        }
+      ],
+      "open_questions": [
+        "Ananya: Can we complete API testing by 22 October?",
+        "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question."
+      ],
+      "overall_status": "Review required",
+      "verification_notes": [
+        "Offline demo mode was used. Run Ollama with Qwen2.5 for AI extraction.",
+        "Confirm owners and deadlines against the original transcript.",
+        "AI connection detail: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate"
+      ],
+      "analysis_mode": "Offline demo fallback"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 06:59 AM",
+    "transcript": "MEETING TITLE: Project Alpha Weekly Planning Meeting\nDATE: 18 October 2026\nPARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\n\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\n\nMeera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases.\n\nAnanya: Can we complete API testing by 22 October?\n\nRahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October.\n\nMeera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes.\n\nAnanya: Agreed. The staging deployment is approved for 24 October.\n\nRahul: I will also share the API test results after testing is complete.\n\nAnanya: The revised budget estimate is still pending approval from the finance team. We need confirmation by Friday.\n\nMeera: I do not have the final budget approval yet.\n\nAnanya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question.\n\nAnanya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval.\n\nEND OF MEETING TRANSCRIPT\n",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "MEETING TITLE: Project Alpha Weekly Planning Meeting DATE: 18 October 2026 PARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer) Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date. Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+      "key_points": [
+        "MEETING TITLE: Project Alpha Weekly Planning Meeting",
+        "DATE: 18 October 2026",
+        "PARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)",
+        "Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.",
+        "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+        "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases."
+      ],
+      "decisions": [
+        {
+          "decision": "Ananya: Agreed. The staging deployment is approved for 24 October.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases."
+        },
+        {
+          "task": "Rahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October."
+        },
+        {
+          "task": "Meera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes."
+        },
+        {
+          "task": "Rahul: I will also share the API test results after testing is complete.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: I will also share the API test results after testing is complete."
+        },
+        {
+          "task": "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question."
+        },
+        {
+          "task": "Ananya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval."
+        }
+      ],
+      "open_questions": [
+        "Ananya: Can we complete API testing by 22 October?",
+        "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question."
+      ],
+      "overall_status": "Review required",
+      "verification_notes": [
+        "Offline demo mode was used. Run Ollama with Qwen2.5 for AI extraction.",
+        "Confirm owners and deadlines against the original transcript.",
+        "AI connection detail: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate"
+      ],
+      "analysis_mode": "Offline demo fallback"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 06:55 AM",
+    "transcript": "MEETING TITLE: Project Alpha Weekly Planning Meeting\nDATE: 18 October 2026\nPARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\n\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\n\nMeera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases.\n\nAnanya: Can we complete API testing by 22 October?\n\nRahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October.\n\nMeera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes.\n\nAnanya: Agreed. The staging deployment is approved for 24 October.\n\nRahul: I will also share the API test results after testing is complete.\n\nAnanya: The revised budget estimate is still pending approval from the finance team. We need confirmation by Friday.\n\nMeera: I do not have the final budget approval yet.\n\nAnanya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question.\n\nAnanya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval.\n\nEND OF MEETING TRANSCRIPT\n",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "MEETING TITLE: Project Alpha Weekly Planning Meeting DATE: 18 October 2026 PARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer) Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date. Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+      "key_points": [
+        "MEETING TITLE: Project Alpha Weekly Planning Meeting",
+        "DATE: 18 October 2026",
+        "PARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)",
+        "Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.",
+        "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+        "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases."
+      ],
+      "decisions": [
+        {
+          "decision": "Ananya: Agreed. The staging deployment is approved for 24 October.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases."
+        },
+        {
+          "task": "Rahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October."
+        },
+        {
+          "task": "Meera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes."
+        },
+        {
+          "task": "Rahul: I will also share the API test results after testing is complete.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: I will also share the API test results after testing is complete."
+        },
+        {
+          "task": "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question."
+        },
+        {
+          "task": "Ananya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval."
+        }
+      ],
+      "open_questions": [
+        "Ananya: Can we complete API testing by 22 October?",
+        "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question."
+      ],
+      "overall_status": "Review required",
+      "verification_notes": [
+        "Offline demo mode was used. Run Ollama with Qwen2.5 for AI extraction.",
+        "Confirm owners and deadlines against the original transcript.",
+        "AI connection detail: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate"
+      ],
+      "analysis_mode": "Offline demo fallback"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 06:21 AM",
+    "transcript": "MEETING TITLE: Project Alpha Weekly Planning Meeting\nDATE: 18 October 2026\nPARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\n\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\n\nMeera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases.\n\nAnanya: Can we complete API testing by 22 October?\n\nRahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October.\n\nMeera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes.\n\nAnanya: Agreed. The staging deployment is approved for 24 October.\n\nRahul: I will also share the API test results after testing is complete.\n\nAnanya: The revised budget estimate is still pending approval from the finance team. We need confirmation by Friday.\n\nMeera: I do not have the final budget approval yet.\n\nAnanya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question.\n\nAnanya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval.\n\nEND OF MEETING TRANSCRIPT\n",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "MEETING TITLE: Project Alpha Weekly Planning Meeting DATE: 18 October 2026 PARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer) Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date. Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+      "key_points": [
+        "MEETING TITLE: Project Alpha Weekly Planning Meeting",
+        "DATE: 18 October 2026",
+        "PARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)",
+        "Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.",
+        "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+        "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases."
+      ],
+      "decisions": [
+        {
+          "decision": "Ananya: Agreed. The staging deployment is approved for 24 October.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases."
+        },
+        {
+          "task": "Rahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October."
+        },
+        {
+          "task": "Meera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes."
+        },
+        {
+          "task": "Rahul: I will also share the API test results after testing is complete.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: I will also share the API test results after testing is complete."
+        },
+        {
+          "task": "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question."
+        },
+        {
+          "task": "Ananya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval."
+        }
+      ],
+      "open_questions": [
+        "Ananya: Can we complete API testing by 22 October?",
+        "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question."
+      ],
+      "overall_status": "Review required",
+      "verification_notes": [
+        "Offline demo mode was used. Run Ollama with Qwen2.5 for AI extraction.",
+        "Confirm owners and deadlines against the original transcript.",
+        "AI connection detail: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate"
+      ],
+      "analysis_mode": "Offline demo fallback"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 06:14 AM",
+    "transcript": "MEETING TITLE: Project Alpha Weekly Planning Meeting\nDATE: 18 October 2026\nPARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\n\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\n\nMeera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases.\n\nAnanya: Can we complete API testing by 22 October?\n\nRahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October.\n\nMeera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes.\n\nAnanya: Agreed. The staging deployment is approved for 24 October.\n\nRahul: I will also share the API test results after testing is complete.\n\nAnanya: The revised budget estimate is still pending approval from the finance team. We need confirmation by Friday.\n\nMeera: I do not have the final budget approval yet.\n\nAnanya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question.\n\nAnanya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval.\n\nEND OF MEETING TRANSCRIPT\n",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "MEETING TITLE: Project Alpha Weekly Planning Meeting DATE: 18 October 2026 PARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer) Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date. Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+      "key_points": [
+        "MEETING TITLE: Project Alpha Weekly Planning Meeting",
+        "DATE: 18 October 2026",
+        "PARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)",
+        "Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.",
+        "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+        "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases."
+      ],
+      "decisions": [
+        {
+          "decision": "Ananya: Agreed. The staging deployment is approved for 24 October.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases."
+        },
+        {
+          "task": "Rahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October."
+        },
+        {
+          "task": "Meera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes."
+        },
+        {
+          "task": "Rahul: I will also share the API test results after testing is complete.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: I will also share the API test results after testing is complete."
+        },
+        {
+          "task": "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question."
+        },
+        {
+          "task": "Ananya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval."
+        }
+      ],
+      "open_questions": [
+        "Ananya: Can we complete API testing by 22 October?",
+        "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question."
+      ],
+      "overall_status": "Review required",
+      "verification_notes": [
+        "Offline demo mode was used. Run Ollama with Qwen2.5 for AI extraction.",
+        "Confirm owners and deadlines against the original transcript.",
+        "AI connection detail: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate"
+      ],
+      "analysis_mode": "Offline demo fallback"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 06:11 AM",
+    "transcript": "MEETING TITLE: Project Alpha Weekly Planning Meeting\nDATE: 18 October 2026\nPARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)\n\nAnanya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.\n\nRahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.\n\nMeera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases.\n\nAnanya: Can we complete API testing by 22 October?\n\nRahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October.\n\nMeera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes.\n\nAnanya: Agreed. The staging deployment is approved for 24 October.\n\nRahul: I will also share the API test results after testing is complete.\n\nAnanya: The revised budget estimate is still pending approval from the finance team. We need confirmation by Friday.\n\nMeera: I do not have the final budget approval yet.\n\nAnanya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question.\n\nAnanya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval.\n\nEND OF MEETING TRANSCRIPT\n",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "MEETING TITLE: Project Alpha Weekly Planning Meeting DATE: 18 October 2026 PARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer) Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date. Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+      "key_points": [
+        "MEETING TITLE: Project Alpha Weekly Planning Meeting",
+        "DATE: 18 October 2026",
+        "PARTICIPANTS: Ananya (Project Manager), Rahul (Developer), Meera (QA Engineer)",
+        "Ananya: Welcome everyone. We need to finalize the testing plan for Project Alpha and confirm the staging deployment date.",
+        "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+        "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases."
+      ],
+      "decisions": [
+        {
+          "decision": "Ananya: Agreed. The staging deployment is approved for 24 October.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: The API development is almost complete. I will prepare the API test cases and share them with the team by 20 October."
+        },
+        {
+          "task": "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: I will verify the integration fixes and complete the integration checks after Rahul shares the test cases."
+        },
+        {
+          "task": "Rahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: Yes. I will take responsibility for API testing and aim to finish it by 22 October."
+        },
+        {
+          "task": "Meera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: We should move the staging deployment to 24 October so that we have enough time to verify the fixes."
+        },
+        {
+          "task": "Rahul: I will also share the API test results after testing is complete.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Rahul: I will also share the API test results after testing is complete."
+        },
+        {
+          "task": "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question."
+        },
+        {
+          "task": "Ananya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval.",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Ananya: To summarize, Rahul will share the API test cases by 20 October and complete API testing by 22 October. Meera will verify the integration fixes. The staging deployment is scheduled for 24 October, and I will follow up on the pending budget approval."
+        }
+      ],
+      "open_questions": [
+        "Ananya: Can we complete API testing by 22 October?",
+        "Ananya: Okay. I will follow up with Finance and update everyone. The budget approval remains an open question."
+      ],
+      "overall_status": "Review required",
+      "verification_notes": [
+        "Offline demo mode was used. Run Ollama with Qwen2.5 for AI extraction.",
+        "Confirm owners and deadlines against the original transcript.",
+        "AI connection detail: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate"
+      ],
+      "analysis_mode": "Offline demo fallback"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 06:09 AM",
+    "transcript": "\n\nPraveen\n7th Semester Student, VIT-AP University\nSpecialization: DevOps & Cloud\n\nGitHub: https://github.com/N-Saipraveen\nLinkedIn: https://www.linkedin.com/in/sai-praveen-26b186253/\n\n",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "Praveen 7th Semester Student, VIT-AP University Specialization: DevOps & Cloud GitHub: https://github.com/N-Saipraveen LinkedIn: https://www.linkedin.com/in/sai-praveen-26b186253/",
+      "key_points": [
+        "Praveen",
+        "7th Semester Student, VIT-AP University",
+        "Specialization: DevOps & Cloud",
+        "GitHub: https://github.com/N-Saipraveen",
+        "LinkedIn: https://www.linkedin.com/in/sai-praveen-26b186253/"
+      ],
+      "decisions": [],
+      "action_items": [],
+      "open_questions": [],
+      "overall_status": "Review required",
+      "verification_notes": [
+        "Offline demo mode was used. Run Ollama with Qwen2.5 for AI extraction.",
+        "Confirm owners and deadlines against the original transcript.",
+        "AI connection detail: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate"
+      ],
+      "analysis_mode": "Offline demo fallback"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "07 Nov 2026, 06:06 AM",
+    "transcript": "\n\nPraveen\n7th Semester Student, VIT-AP University\nSpecialization: DevOps & Cloud\n\nGitHub: https://github.com/N-Saipraveen\nLinkedIn: https://www.linkedin.com/in/sai-praveen-26b186253/\n\n",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "Praveen 7th Semester Student, VIT-AP University Specialization: DevOps & Cloud GitHub: https://github.com/N-Saipraveen LinkedIn: https://www.linkedin.com/in/sai-praveen-26b186253/",
+      "key_points": [
+        "Praveen",
+        "7th Semester Student, VIT-AP University",
+        "Specialization: DevOps & Cloud",
+        "GitHub: https://github.com/N-Saipraveen",
+        "LinkedIn: https://www.linkedin.com/in/sai-praveen-26b186253/"
+      ],
+      "decisions": [],
+      "action_items": [],
+      "open_questions": [],
+      "overall_status": "Review required",
+      "verification_notes": [
+        "Offline demo mode was used. Run Ollama with Qwen2.5 for AI extraction.",
+        "Confirm owners and deadlines against the original transcript.",
+        "AI connection detail: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate"
+      ],
+      "analysis_mode": "Offline demo fallback"
+    }
+  },
+  {
+    "title": "Meeting analysis",
+    "created_at": "07 Nov 2026, 06:01 AM",
+    "transcript": "=========================================================\nMEETINGMIND AI - INTERVIEW NOTES\n(Project, Technical, Front End, How to Run, Q&A)\n==========================================================\n \n \n----------------------------------------------------------\n1. 30-SECOND PITCH\n----------------------------------------------------------\nMeetingMind AI turns a raw meeting transcript into a structured report:\nsummary, key points, decisions, action items (owner + deadline), and open\nquestions. You can also ask questions about the meeting. It runs locally\nwith Qwen2.5 (3B) through Ollama, so transcripts never leave the machine.\nThe UI is a Streamlit dashboard.\n \n \n----------------------------------------------------------\n2. PROBLEM AND MOTIVATION\n----------------------------------------------------------\n- Meeting outcomes get buried in long transcripts; people re-read or\n  re-watch recordings.\n- Meetings often contain confidential information, so I chose a local LLM\n  instead of a cloud API.\n- It is decision support, not automation. It does not assign tasks or send\n  email. A human reviews the output.\n \n \n----------------------------------------------------------\n3. TECH STACK AND WHY\n----------------------------------------------------------\nStreamlit          Fast to build a data-app UI in pure Python.\nOllama + qwen2.5:3b  Free, local, private; runs on an 8 GB laptop.\n                   Qwen2.5 follows instructions and produces JSON well\n                   for its size.\nrequests           Calls Ollama REST API (/api/generate, /api/tags).\nJSON file / MongoDB  Zero-setup storage by default; Mongo is opt-in via .env.\nQMSum + ROUGE      Standard benchmark and metric for meeting summarization.\n \nProject files:\n  app.py              Main Streamlit app (UI + logic, ~400 lines)\n  dataset_prepare.py  Downloads a QMSum sample to JSONL\n  evaluation.py       ROUGE-1/2/L baseline\n  sample_transcript.txt  Demo transcript\n  .env.example        Model, URL and Mongo settings\n  requirements.txt    streamlit, requests, pydantic, pymongo,\n                      python-dotenv, rouge-score, datasets\n \n \n----------------------------------------------------------\n4. ARCHITECTURE (SAY THIS FIRST)\n----------------------------------------------------------\nThree layers, local-first:\n \n  Presentation : Streamlit. Reruns the whole script on each interaction,\n                 so state lives in st.session_state.\n  Inference    : Qwen2.5-3B served by Ollama via REST on localhost:11434.\n                 The app is only an HTTP client; the model is swappable\n                 from a text box.\n  Persistence  : data/meetings.json by default; optional MongoDB\n                 (ping with 1.2 s timeout, silent fallback to the file).\n \nData flow:\n  Transcript -> prompt builder -> POST /api/generate (format=json)\n  -> parse_json_response() -> schema normalization\n  -> UI tabs + history + JSON export\n \n \n----------------------------------------------------------\n5. HOW ONE REQUEST WORKS (analyze_meeting in app.py)\n----------------------------------------------------------\n1. Prompt engineering. One zero-shot prompt with a role, hard constraints\n   and an explicit JSON schema. Constraints: never invent a person,\n   decision, deadline or task; write \"Not specified\" if absent; every\n   decision/action carries a short evidence quote.\n   Schema: meeting_title, summary, key_points[], decisions[],\n   action_items[] (task, owner, deadline, status, evidence),\n   open_questions[], overall_status, verification_notes[].\n2. Constrained decoding. \"format\": \"json\" in the Ollama call gives\n   syntactically valid JSON. It does NOT guarantee my schema.\n3. Defensive parsing. Strip markdown fences with regex, slice from first\n   \"{\" to last \"}\", json.loads.\n4. Normalization. Missing or wrong-typed keys get defaults so the UI never\n   raises KeyError.\n5. Context handling. Transcript truncated to 30,000 characters (known\n   limitation; fix = chunking / map-reduce).\n6. Fallback. If Ollama fails, fallback_analysis() uses keyword/regex rules\n   (\"agreed\", \"approved\", \"action:\", \"?\"). The report is labelled\n   \"Offline demo fallback\" with a warning banner so nobody mistakes it for\n   AI output.\n7. Ask Meeting. Separate prompt: answer ONLY from the transcript, otherwise\n   reply \"The transcript does not specify this.\", quote support.\n8. Persistence. History capped at 100 meetings, saved to JSON and mirrored\n   to MongoDB if reachable.\n9. Export. Report downloads as JSON.\n \n \n----------------------------------------------------------\n6. KEY TECHNICAL CONCEPTS TO NAME\n----------------------------------------------------------\n- Grounded generation: answers restricted to the transcript, fixed refusal\n  string, evidence quotes.\n- Structured information extraction: unstructured text -> typed JSON\n  (NER-like for owners/dates, classification of decision vs action vs\n  question).\n- Graceful degradation: LLM -> rule-based fallback; Mongo -> JSON file.\n- Local inference: quantized 3B model (about 4-bit GGUF) in roughly 2-3 GB\n  RAM. Trade-off: privacy and zero cost vs lower accuracy than large\n  cloud models.\n- Evaluation: ROUGE-1/2/L on QMSum. ROUGE measures n-gram overlap; it\n  cannot judge whether owners/deadlines are correct.\n \n \n----------------------------------------------------------\n7. DESIGN DECISIONS AND TRADE-OFFS\n----------------------------------------------------------\nLocal 3B model   + private, free, offline\n                 - weaker on long context and owner/deadline resolution\nSingle prompt    + simple, one round trip, low latency\n                 - no self-correction loop\nJSON mode        + parseable output\n                 - does not enforce the schema, so I still validate\nJSON file store  + zero setup\n                 - no concurrency, rewrites whole file on each save\nStreamlit        + very fast to build\n                 - full-script reruns, limited UI control\n \n \n----------------------------------------------------------\n8. FRONT END - HOW TO EXPLAIN IT\n----------------------------------------------------------\nOpener:\n\"The front end is built entirely in Python with Streamlit. There is no\nseparate React layer. I used Streamlit for structure and about 30 lines of\ncustom CSS to turn the default look into a dark, dashboard-style interface,\nso it feels like a product with the AI working underneath.\"\n \nLayout (what the interviewer sees):\n  Left sidebar     Navigation (5 pages) + Local AI settings\n                   (st.sidebar, st.radio, st.text_input)\n  Hero banner      Title, tagline, feature pills (custom HTML/CSS)\n  4 metric cards   Meetings analyzed, action items, decisions, AI status\n                   (st.columns(4), st.metric)\n  Welcome + Quick start  onboarding for first-time users\n  Processing pipeline card  visual of the 5 stages\n \nWhy this layout: sidebar navigation keeps the main area for content; hero\nplus KPI cards show value at a glance, the same pattern as an analytics\ndashboard.\n \nThe five pages:\n  1. Overview - live counts computed from saved history.\n  2. Analyze Meeting - file upload (.txt), title, text area, Generate\n     button. Results in four tabs: Key decisions, Action items, Open\n     questions, Verification. JSON download button.\n  3. Ask Meeting - question box answered from the transcript.\n  4. Meeting History - search by title, expanders, \"Load this report\".\n  5. About Project - problem statement, workflow, limitations.\n \nTechnical points:\n- Navigation: st.radio returns the page name; an if/elif chain renders\n  that page. Single-file routing, no URL routes.\n- State management: Streamlit reruns the whole script on every click, so\n  I keep transcript, report and active_meeting in st.session_state.\n- Theming: CSS injected via st.markdown(unsafe_allow_html=True). CSS\n  variables for the palette, radial gradient background, rounded cards,\n  gradient buttons, Google Fonts (Space Grotesk headings, DM Sans body),\n  overrides of Streamlit test IDs (stMetric, stSidebar, stFileUploader).\n- Reusable component classes: .decision (purple left border), .task\n  (bordered card), .question (amber left border).\n- User feedback: st.spinner while the model runs; success/warning/error\n  messages; an offline-fallback warning banner.\n- \"Check AI connection\" calls Ollama /api/tags and lists installed models,\n  a health check without the terminal.\n \nUX decisions to name:\n- Progressive disclosure (tabs, expanders).\n- Trust and transparency (evidence quote on every item, mode and status\n  pills).\n- Input validation (transcript under 30 characters is rejected).\n- Graceful failure (works without AI, clearly labelled).\n- Onboarding (Quick start and pipeline panel).\n \nFront-end weak points (be honest):\n- LLM output is inserted with unsafe_allow_html=True -> XSS-style risk.\n  Fix: html.escape the text.\n- No streaming; user waits behind a spinner. Fix: \"stream\": True.\n- Not tuned for mobile; no automated UI tests.\n- \"Clear history\" tells the user to refresh because history was loaded\n  earlier in the run. Fix: st.rerun().\n \nWhy Streamlit instead of React?\n\"This is a Python/ML prototype. Streamlit let me build the full UI in one\nlanguage and focus on the AI logic. For production I would move to\nFastAPI + React for concurrent users, streaming and proper routing.\"\n \n \n----------------------------------------------------------\n9. HONEST LIMITATIONS (INTERVIEWERS WILL PROBE)\n----------------------------------------------------------\n1. The \"5-stage agentic pipeline\" in the UI is conceptual. The code makes\n   ONE LLM call. Say: \"single-pass extraction, designed so it can be split\n   into separate stages.\"\n2. Evidence quotes are requested from the model but NOT verified. Planned\n   fix: check that each quote is a substring of the transcript; flag or\n   re-query if not.\n3. No chunking: transcript truncated at 30,000 characters. Fix: map-reduce\n   summarization.\n4. Evaluation is not wired end to end: dataset_prepare.py does not create\n   generated_summary, so evaluation.py prints \"No generated_summary /\n   reference_summary pairs found\" until a generation step is added.\n   Do NOT quote ROUGE scores unless you have run it.\n5. A 3B model can miss owners or deadlines on messy transcripts. Options:\n   larger model (7B/14B), few-shot examples, retry on invalid JSON.\n6. Smaller code issues: saved meetings are looked up by title (duplicates\n   clash); Mongo save does delete_many + insert_many on every save; Mongo\n   errors are swallowed silently; Pydantic is a dependency but unused.\n \n \n----------------------------------------------------------\n10. FUTURE IMPROVEMENTS\n----------------------------------------------------------\n- Verifier step: match each evidence quote against the transcript.\n- Pydantic schema validation with retry that feeds the error back.\n- Chunking and long-context handling.\n- Larger or LoRA fine-tuned model; few-shot prompting.\n- Speaker diarization / audio input with Whisper.\n- Export actions to Jira or Calendar, always with human approval.\n- Labelled test set measuring precision/recall of action items.\n- UI: streaming output, editable action-item status, filters by owner and\n  deadline, timeline view, accessibility checks.\n \n \n----------------------------------------------------------\n11. HOW TO RUN (macOS)\n----------------------------------------------------------\nOne-time setup (Terminal in the project folder):\n \n  cd MeetingMind_AI\n  python3 -m venv .venv\n  source .venv/bin/activate\n  pip install -r requirements.txt\n \nInstall Ollama from https://ollama.com/download/mac, then:\n \n  ollama pull qwen2.5:3b        (about 2 GB)\n \nEvery run:\n \n  Terminal 1:   ollama serve\n                (if \"address already in use\", it is already running - fine)\n \n  Terminal 2:   cd MeetingMind_AI\n                source .venv/bin/activate\n                streamlit run app.py\n                -> opens http://localhost:8501\n \nVerify:\n  1. Sidebar -> \"Check AI connection\" -> \"Ollama is running\" and\n     qwen2.5:3b listed.\n  2. Analyze Meeting -> upload sample_transcript.txt.\n  3. Click \"Generate meeting report\" (10-60 s on a 3B model).\n  4. Mode pill should read \"Ollama / qwen2.5:3b\". If it says\n     \"Offline demo fallback\", Ollama was not reached.\n  5. Ask Meeting -> \"Who will share the API test cases, and by when?\"\n \nTroubleshooting:\n  \"Cannot connect\"          -> run ollama serve; URL must be\n                               http://localhost:11434\n  Offline demo fallback     -> run \"ollama list\" and confirm qwen2.5:3b\n  ollama: command not found -> install Ollama, reopen Terminal\n  streamlit: not found      -> source .venv/bin/activate\n  Very slow / timeout 240 s -> close heavy apps, use a shorter transcript\n  Port 8501 busy            -> streamlit run app.py --server.port 8502\n \nOptional:\n  MongoDB: cp .env.example .env and set MONGODB_URI.\n  Dataset: python dataset_prepare.py --limit 100\n \n \n----------------------------------------------------------\n12. LIKELY INTERVIEW QUESTIONS - SHORT ANSWERS\n----------------------------------------------------------\nQ: Why a local model instead of the OpenAI API?\nA: Privacy and cost. Meeting data is sensitive, and it works offline.\n \nQ: Why format=json?\nA: It constrains decoding toward valid JSON and reduces parse failures. I\n   still parse defensively and normalize the schema.\n \nQ: How do you reduce hallucinations?\nA: Grounding instructions, \"Not specified\" defaults, evidence quotes,\n   verification notes, and a labelled fallback. Next step: programmatic\n   quote checking.\n \nQ: How would you scale it?\nA: Chunking, a real database, a job queue for LLM calls, and a hosted\n   model behind an API (FastAPI + React front end).\n \nQ: How do you evaluate it?\nA: ROUGE for summaries, plus human or labelled evaluation for decisions\n   and action items, since overlap metrics cannot judge correctness.\n \nQ: What was the hardest part?\nA: Getting reliable structured output from a small model: handling\n   malformed JSON, missing fields, and keeping extraction grounded in the\n   transcript.\n \nQ: What would you do differently?\nA: Split into real pipeline stages with a verifier, validate with\n   Pydantic, add chunking, and build a labelled test set early.\n \n \n----------------------------------------------------------\n13. TWO-SENTENCE TECHNICAL SUMMARY\n----------------------------------------------------------\n\"MeetingMind is a prompt-driven extraction system using a quantized\nQwen2.5-3B served by Ollama, constrained to a JSON schema with evidence\nfields, wrapped in a Streamlit UI with fallback logic and pluggable\npersistence. I would evolve it into a multi-step pipeline with\nprogrammatic verification and proper evaluation.\"\n \n \n----------------------------------------------------------\n14. 60-SECOND DEMO SCRIPT\n----------------------------------------------------------\n1. \"This is the Overview; these cards are computed from saved meetings.\"\n2. Open Analyze Meeting, upload the sample transcript.\n3. Click Generate; point at the spinner.\n4. \"Tabs separate decisions, action items and open questions; each item\n   shows its evidence.\"\n5. Open Ask Meeting: \"Who will share the API test cases?\"",
+    "report": {
+      "meeting_title": "Meeting analysis",
+      "summary": "========================================================= MEETINGMIND AI - INTERVIEW NOTES (Project, Technical, Front End, How to Run, Q&A) ========================================================== ----------------------------------------------------------",
+      "key_points": [
+        "=========================================================",
+        "MEETINGMIND AI - INTERVIEW NOTES",
+        "(Project, Technical, Front End, How to Run, Q&A)",
+        "==========================================================",
+        "----------------------------------------------------------",
+        "1. 30-SECOND PITCH"
+      ],
+      "decisions": [
+        {
+          "decision": "summary, key points, decisions, action items (owner + deadline), and open",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "- It is decision support, not automation. It does not assign tasks or send",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "decision, deadline or task; write \"Not specified\" if absent; every",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "decision/action carries a short evidence quote.",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "Schema: meeting_title, summary, key_points[], decisions[],",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "(\"agreed\", \"approved\", \"action:\", \"?\"). The report is labelled",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "(NER-like for owners/dates, classification of decision vs action vs",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        },
+        {
+          "decision": "7. DESIGN DECISIONS AND TRADE-OFFS",
+          "reason": "Extracted from the meeting transcript.",
+          "participants": "Not explicitly identified"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "(\"agreed\", \"approved\", \"action:\", \"?\"). The report is labelled",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "(\"agreed\", \"approved\", \"action:\", \"?\"). The report is labelled"
+        },
+        {
+          "task": "- Structured information extraction: unstructured text -> typed JSON",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "- Structured information extraction: unstructured text -> typed JSON"
+        },
+        {
+          "task": "9. HONEST LIMITATIONS (INTERVIEWERS WILL PROBE)",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "9. HONEST LIMITATIONS (INTERVIEWERS WILL PROBE)"
+        },
+        {
+          "task": "4. Mode pill should read \"Ollama / qwen2.5:3b\". If it says",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "4. Mode pill should read \"Ollama / qwen2.5:3b\". If it says"
+        },
+        {
+          "task": "5. Ask Meeting -> \"Who will share the API test cases, and by when?\"",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "5. Ask Meeting -> \"Who will share the API test cases, and by when?\""
+        },
+        {
+          "task": "5. Open Ask Meeting: \"Who will share the API test cases?\"",
+          "owner": "Not specified",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "5. Open Ask Meeting: \"Who will share the API test cases?\""
+        }
+      ],
+      "open_questions": [
+        "(\"agreed\", \"approved\", \"action:\", \"?\"). The report is labelled",
+        "Why Streamlit instead of React?",
+        "5. Ask Meeting -> \"Who will share the API test cases, and by when?\"",
+        "Q: Why a local model instead of the OpenAI API?",
+        "Q: Why format=json?",
+        "Q: How do you reduce hallucinations?",
+        "Q: How would you scale it?",
+        "Q: How do you evaluate it?"
+      ],
+      "overall_status": "Review required",
+      "verification_notes": [
+        "Offline demo mode was used. Run Ollama with Qwen2.5 for AI extraction.",
+        "Confirm owners and deadlines against the original transcript.",
+        "AI connection detail: 500 Server Error: Internal Server Error for url: http://localhost:11434/api/generate"
+      ],
+      "analysis_mode": "Offline demo fallback"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "06 Nov 2026, 05:24 PM",
+    "transcript": "   Priya: Let's finalize the launch date today.\n   Rahul: I can have the demo ready by Friday.\n   Priya: Great, I'll send the invite to the client.",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "The team discussed and agreed on a launch date and finalized the process for sending a client invite.",
+      "key_points": [
+        "Launch date is agreed upon",
+        "Rahul can prepare the demo by Friday",
+        "Priya will send the client invite"
+      ],
+      "decisions": [
+        {
+          "decision": "Agree on launch date",
+          "reason": "Team confirmed the launch date today",
+          "participants": "Priya, Rahul",
+          "evidence": "Priya: Let's finalize the launch date today. Rahul: I can have the demo ready by Friday."
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Send client invite",
+          "owner": "Priya",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Priya: Great, I'll send the invite to the client."
+        }
+      ],
+      "open_questions": [],
+      "overall_status": "On track",
+      "verification_notes": [
+        "Launch date not explicitly stated in the transcript"
+      ],
+      "analysis_mode": "Ollama / qwen2.5:3b"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "06 Nov 2026, 05:23 PM",
+    "transcript": "   Priya: Let's finalize the launch date today.\n   Rahul: I can have the demo ready by Friday.\n   Priya: Great, I'll send the invite to the client.\n",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "The team agreed to finalize the launch date for today and Priya will send the client invitation after Rahul provides the demo.",
+      "key_points": [
+        "Finalize launch date",
+        "Rahul will provide demo by Friday",
+        "Priya will send client invitation"
+      ],
+      "decisions": [],
+      "action_items": [
+        {
+          "task": "Send client invitation",
+          "owner": "Priya",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Priya: I'll send the invite to the client."
+        }
+      ],
+      "open_questions": [],
+      "overall_status": "On track",
+      "verification_notes": [],
+      "analysis_mode": "Ollama / qwen2.5:3b"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "30 Oct 2026, 10:16 PM",
+    "transcript": "MEETING TRANSCRIPT\nProject: Campus Event Management Platform\nDate: 30 October 2026\n\nPriya (Project Manager): Good morning, everyone. Today we will discuss registration, payment integration and testing.\n\nArjun (Backend Developer): The registration API is completed. However, duplicate registrations are currently accepted. I will fix this issue by 2 November.\n\nMeera (Frontend Developer): The registration page is ready. I need to fix form validation and the event date format. I will complete both by 1 November.\n\nRahul (QA Engineer): I found three issues:\n1. Duplicate registrations are accepted.\n2. Email confirmation is not being sent.\n3. Event dates are displayed incorrectly.\n\nArjun: I will investigate the email confirmation issue and share an update by 2 November.\n\nPriya: Rahul, please perform regression testing after receiving the updated build on 3 November.\n\nRahul: I will complete testing by 4 November.\n\nArjun: We have not received payment gateway test credentials yet.\n\nPriya: I will contact the finance team and request the credentials by 1 November.\n\nMeera: Once the payment API is available, I will implement the payment status screen.\n\nRahul: What should happen when a payment fails? Should registration remain pending or be cancelled?\n\nPriya: This decision is still pending. I will discuss it with the product owner.\n\nMEETING CONCLUSION:\n- Meera: Form validation and date formatting by 1 November.\n- Arjun: Duplicate registration fix by 2 November.\n- Arjun: Investigate email confirmation by 2 November.\n- Priya: Obtain payment credentials by 1 November.\n- Rahul: Complete regression testing by 4 November.\n- Open question: Failed payment handling.\n\nEND OF TRANSCRIPT",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "The meeting discussed issues with the registration API and payment integration, planned timelines, and asked for clarification on failed payment handling.",
+      "key_points": [
+        "Duplicate registrations are not allowed.",
+        "Email confirmation needs to be implemented.",
+        "Payment handling issues need to be addressed."
+      ],
+      "decisions": [
+        {
+          "decision": "Duplicate registration fix by 2 November",
+          "reason": "Arjun will fix duplicate registrations issue",
+          "participants": "Arjun",
+          "evidence": "Arjun: The registration API is completed. However, duplicate registrations are currently accepted. I will fix this issue by 2 November."
+        },
+        {
+          "decision": "Investigate email confirmation by 2 November",
+          "reason": "Rahul will investigate email confirmation issue",
+          "participants": "Rahul",
+          "evidence": "Arjun: I will investigate the email confirmation issue and share an update by 2 November."
+        },
+        {
+          "decision": "Obtain payment credentials by 1 November",
+          "reason": "Priya will contact finance team for payment credentials",
+          "participants": "Priya",
+          "evidence": "Priya: I will contact the finance team and request the credentials by 1 November."
+        },
+        {
+          "decision": "Complete regression testing by 4 November",
+          "reason": "Rahul will perform regression testing",
+          "participants": "Rahul",
+          "evidence": "Priya: Rahul, please perform regression testing after receiving the updated build on 3 November. Rahul: I will complete testing by 4 November."
+        },
+        {
+          "decision": "Failed payment handling decision to be discussed with product owner",
+          "reason": "Priya will discuss with product owner",
+          "participants": "Priya",
+          "evidence": "Priya: This decision is still pending. I will discuss it with the product owner."
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Form validation and date formatting by 1 November",
+          "owner": "Meera",
+          "deadline": "1 November",
+          "status": "Open",
+          "evidence": "Meera: I need to fix form validation and the event date format. I will complete both by 1 November."
+        },
+        {
+          "task": "Implement payment status screen after payment API availability",
+          "owner": "Meera",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Meera: Once the payment API is available, I will implement the payment status screen."
+        },
+        {
+          "task": "Completed regression testing by 4 November",
+          "owner": "Rahul",
+          "deadline": "4 November",
+          "status": "Open",
+          "evidence": "Rahul: I will complete testing by 4 November."
+        }
+      ],
+      "open_questions": [
+        "Failed payment handling"
+      ],
+      "overall_status": "At risk",
+      "verification_notes": [
+        "Payment gateway test credentials not received",
+        "Open questions need to be addressed by team members"
+      ],
+      "analysis_mode": "Ollama / qwen2.5:3b"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "30 Oct 2026, 10:15 PM",
+    "transcript": "MEETING TRANSCRIPT\nProject: Campus Event Management Platform\nDate: 30 October 2026\n\nPriya (Project Manager): Good morning, everyone. Today we will discuss registration, payment integration and testing.\n\nArjun (Backend Developer): The registration API is completed. However, duplicate registrations are currently accepted. I will fix this issue by 2 November.\n\nMeera (Frontend Developer): The registration page is ready. I need to fix form validation and the event date format. I will complete both by 1 November.\n\nRahul (QA Engineer): I found three issues:\n1. Duplicate registrations are accepted.\n2. Email confirmation is not being sent.\n3. Event dates are displayed incorrectly.\n\nArjun: I will investigate the email confirmation issue and share an update by 2 November.\n\nPriya: Rahul, please perform regression testing after receiving the updated build on 3 November.\n\nRahul: I will complete testing by 4 November.\n\nArjun: We have not received payment gateway test credentials yet.\n\nPriya: I will contact the finance team and request the credentials by 1 November.\n\nMeera: Once the payment API is available, I will implement the payment status screen.\n\nRahul: What should happen when a payment fails? Should registration remain pending or be cancelled?\n\nPriya: This decision is still pending. I will discuss it with the product owner.\n\nMEETING CONCLUSION:\n- Meera: Form validation and date formatting by 1 November.\n- Arjun: Duplicate registration fix by 2 November.\n- Arjun: Investigate email confirmation by 2 November.\n- Priya: Obtain payment credentials by 1 November.\n- Rahul: Complete regression testing by 4 November.\n- Open question: Failed payment handling.\n\nEND OF TRANSCRIPT",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "The team discussed issues with the registration API, including duplicate registrations and incorrect event dates. They also addressed the email confirmation issue and payment integration.",
+      "key_points": [
+        "Duplicate registrations and incorrect event dates are issues to be fixed by Arjun and Rahul respectively.",
+        "Email confirmation and payment handling need to be discussed with the product owner.",
+        "Payment gateway test credentials are needed by 1 November."
+      ],
+      "decisions": [
+        {
+          "decision": "Duplicate registration fix by 2 November",
+          "reason": "Arjun will fix the issue.",
+          "participants": "Arjun",
+          "evidence": "Arjun confirmed that the duplicate registrations issue will be fixed by 2 November."
+        },
+        {
+          "decision": "Investigate email confirmation by 2 November",
+          "reason": "Rahul will investigate the issue.",
+          "participants": "Rahul",
+          "evidence": "Rahul will share an update by 2 November after investigating the issue."
+        },
+        {
+          "decision": "Obtain payment credentials by 1 November",
+          "reason": "Priya will contact the finance team.",
+          "participants": "Priya",
+          "evidence": "Priya will request payment credentials by 1 November."
+        },
+        {
+          "decision": "Complete regression testing by 4 November",
+          "reason": "Rahul will perform the testing.",
+          "participants": "Rahul",
+          "evidence": "Rahul will complete the testing by 4 November after receiving the updated build."
+        },
+        {
+          "decision": "Failed payment handling decision pending",
+          "reason": "This decision is yet to be made.",
+          "participants": "Priya",
+          "evidence": "Priya will discuss the decision with the product owner."
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Form validation and date formatting by 1 November",
+          "owner": "Meera",
+          "deadline": "1 November",
+          "status": "Open",
+          "evidence": "Meera stated she needs to fix these issues by 1 November."
+        },
+        {
+          "task": "Duplicate registration fix by 2 November",
+          "owner": "Arjun",
+          "deadline": "2 November",
+          "status": "Open",
+          "evidence": "Arjun confirmed the fix will be done by 2 November."
+        },
+        {
+          "task": "Investigate email confirmation by 2 November",
+          "owner": "Rahul",
+          "deadline": "2 November",
+          "status": "Open",
+          "evidence": "Rahul will provide an update by 2 November."
+        },
+        {
+          "task": "Complete regression testing by 4 November",
+          "owner": "Rahul",
+          "deadline": "4 November",
+          "status": "Open",
+          "evidence": "Rahul will complete the testing by 4 November."
+        }
+      ],
+      "open_questions": [
+        "Failed payment handling decision",
+        "Duplicate registration fix by 2 November"
+      ],
+      "overall_status": "At risk",
+      "verification_notes": [
+        "Payment gateway test credentials are needed by 1 November, not specified yet."
+      ],
+      "analysis_mode": "Ollama / qwen2.5:3b"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "30 Oct 2026, 10:14 PM",
+    "transcript": "MEETING TRANSCRIPT\nProject: Campus Event Management Platform\nDate: 30 October 2026\n\nPriya (Project Manager): Good morning, everyone. Today we will discuss registration, payment integration and testing.\n\nArjun (Backend Developer): The registration API is completed. However, duplicate registrations are currently accepted. I will fix this issue by 2 November.\n\nMeera (Frontend Developer): The registration page is ready. I need to fix form validation and the event date format. I will complete both by 1 November.\n\nRahul (QA Engineer): I found three issues:\n1. Duplicate registrations are accepted.\n2. Email confirmation is not being sent.\n3. Event dates are displayed incorrectly.\n\nArjun: I will investigate the email confirmation issue and share an update by 2 November.\n\nPriya: Rahul, please perform regression testing after receiving the updated build on 3 November.\n\nRahul: I will complete testing by 4 November.\n\nArjun: We have not received payment gateway test credentials yet.\n\nPriya: I will contact the finance team and request the credentials by 1 November.\n\nMeera: Once the payment API is available, I will implement the payment status screen.\n\nRahul: What should happen when a payment fails? Should registration remain pending or be cancelled?\n\nPriya: This decision is still pending. I will discuss it with the product owner.\n\nMEETING CONCLUSION:\n- Meera: Form validation and date formatting by 1 November.\n- Arjun: Duplicate registration fix by 2 November.\n- Arjun: Investigate email confirmation by 2 November.\n- Priya: Obtain payment credentials by 1 November.\n- Rahul: Complete regression testing by 4 November.\n- Open question: Failed payment handling.\n\nEND OF TRANSCRIPT\n",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "The team discusses and assigns tasks for registration, payment integration, and testing for the Campus Event Management Platform project. Issues with registration and form validation are addressed, and the team outlines a timeline for resolving these issues and completing related tasks.",
+      "key_points": [
+        "Duplicate registrations are currently accepted and need to be fixed by 2 November.",
+        "Form validation and event date format issues need to be fixed by 1 November.",
+        "Email confirmation is not being sent and needs to be fixed by 2 November.",
+        "Payment gateway credentials need to be obtained by 1 November.",
+        "Regression testing of updated build needs to be completed by 4 November.",
+        "A decision is pending regarding what happens when a payment fails."
+      ],
+      "decisions": [
+        {
+          "decision": "Duplicate registration issue needs to be fixed by 2 November.",
+          "reason": "Duplicate registrations are currently accepted.",
+          "participants": "Arjun",
+          "evidence": "Arjun stated, 'I will fix this issue by 2 November.'"
+        },
+        {
+          "decision": "Email confirmation issue needs to be investigated by 2 November.",
+          "reason": "Email confirmation is not being sent.",
+          "participants": "Arjun",
+          "evidence": "Arjun stated, 'I will investigate the email confirmation issue and share an update by 2 November.'"
+        },
+        {
+          "decision": "Payment gateway credentials need to be obtained by 1 November.",
+          "reason": "Payment gateway test credentials are not yet received.",
+          "participants": "Priya",
+          "evidence": "Priya stated, 'I will contact the finance team and request the credentials by 1 November.'"
+        },
+        {
+          "decision": "Regression testing needs to be completed by 4 November.",
+          "reason": "A new build needs to be tested.",
+          "participants": "Rahul",
+          "evidence": "Rahul stated, 'I will complete testing by 4 November.'"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Implement payment status screen when payment API is available.",
+          "owner": "Meera",
+          "deadline": "1 November",
+          "status": "Open",
+          "evidence": "Meera stated, 'Once the payment API is available, I will implement the payment status screen.'"
+        },
+        {
+          "task": "Determine what happens when a payment fails.",
+          "owner": "Priya",
+          "deadline": "Not specified",
+          "status": "Open",
+          "evidence": "Priya stated, 'This decision is still pending. I will discuss it with the product owner.'"
+        }
+      ],
+      "open_questions": [
+        "What should happen when a payment fails?",
+        "How should duplicate registrations be handled?"
+      ],
+      "overall_status": "On track",
+      "verification_notes": [
+        "Payment gateway credentials are still pending and need to be requested by Priya by 1 November."
+      ],
+      "analysis_mode": "Ollama / qwen2.5:3b"
+    }
+  },
+  {
+    "title": "Project planning meeting",
+    "created_at": "30 Oct 2026, 10:08 PM",
+    "transcript": "MEETING TRANSCRIPT\nProject: Campus Event Management Platform\nDate: 30 October 2026\n\nPriya (Project Manager): Good morning, everyone. Today we will discuss registration, payment integration and testing.\n\nArjun (Backend Developer): The registration API is completed. However, duplicate registrations are currently accepted. I will fix this issue by 2 November.\n\nMeera (Frontend Developer): The registration page is ready. I need to fix form validation and the event date format. I will complete both by 1 November.\n\nRahul (QA Engineer): I found three issues:\n1. Duplicate registrations are accepted.\n2. Email confirmation is not being sent.\n3. Event dates are displayed incorrectly.\n\nArjun: I will investigate the email confirmation issue and share an update by 2 November.\n\nPriya: Rahul, please perform regression testing after receiving the updated build on 3 November.\n\nRahul: I will complete testing by 4 November.\n\nArjun: We have not received payment gateway test credentials yet.\n\nPriya: I will contact the finance team and request the credentials by 1 November.\n\nMeera: Once the payment API is available, I will implement the payment status screen.\n\nRahul: What should happen when a payment fails? Should registration remain pending or be cancelled?\n\nPriya: This decision is still pending. I will discuss it with the product owner.\n\nMEETING CONCLUSION:\n- Meera: Form validation and date formatting by 1 November.\n- Arjun: Duplicate registration fix by 2 November.\n- Arjun: Investigate email confirmation by 2 November.\n- Priya: Obtain payment credentials by 1 November.\n- Rahul: Complete regression testing by 4 November.\n- Open question: Failed payment handling.\n\nEND OF TRANSCRIPT",
+    "report": {
+      "meeting_title": "Project planning meeting",
+      "summary": "The team discusses registration, payment integration, and testing issues. They address duplicate registrations, email confirmation, and incorrect event dates. The team also addresses the need for payment credentials and discusses the handling of failed payments.",
+      "key_points": [
+        "Duplicate registrations are a problem",
+        "Email confirmation is not working",
+        "Incorrect event dates displayed",
+        "Payment credentials are needed by 1 November",
+        "Failed payment handling is an open question"
+      ],
+      "decisions": [
+        {
+          "decision": "Duplicate registration fix",
+          "reason": "Duplicate registrations are currently accepted",
+          "participants": "Arjun",
+          "evidence": "Arjun will fix this issue by 2 November"
+        },
+        {
+          "decision": "Investigate email confirmation",
+          "reason": "Email confirmation is not being sent",
+          "participants": "Arjun",
+          "evidence": "Arjun will investigate the email confirmation issue and share an update by 2 November"
+        },
+        {
+          "decision": "Payment credentials needed",
+          "reason": "No payment gateway test credentials received",
+          "participants": "Priya",
+          "evidence": "Priya will contact the finance team and request the credentials by 1 November"
+        },
+        {
+          "decision": "Failed payment handling",
+          "reason": "Handling of failed payments is still pending",
+          "participants": "Priya",
+          "evidence": "Priya will discuss the handling with the product owner"
+        }
+      ],
+      "action_items": [
+        {
+          "task": "Implement payment status screen",
+          "owner": "Meera",
+          "deadline": "1 November",
+          "status": "Open",
+          "evidence": "Meera will implement the payment status screen once the payment API is available"
+        }
+      ],
+      "open_questions": [
+        "How should failed payments be handled?"
+      ],
+      "overall_status": "At risk",
+      "verification_notes": [
+        "No further evidence provided for 'Open' action items and 'At risk' overall status"
+      ],
+      "analysis_mode": "Ollama / qwen2.5:3b"
+    }
+  }
+]

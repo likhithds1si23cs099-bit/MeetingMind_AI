@@ -1,0 +1,13 @@
+Project Alpha Weekly Planning Meeting
+Date: 15 October 2026
+
+Ananya: We need to finalize the testing plan for Project Alpha before the next review.
+Rahul: The team agreed to complete API testing by 22 October. Rahul will prepare the test cases.
+Meera: We should move the staging deployment to 24 October because the integration fixes need another day.
+Ananya: Agreed. The staging deployment is approved for 24 October.
+Rahul: Action: Rahul to share the API test cases by 20 October.
+Meera: I will verify the integration fixes before the staging deployment.
+Ananya: The budget estimate is still pending approval from finance. Who can confirm the final amount?
+Meera: We have not received the updated estimate yet.
+Ananya: Open question: Can finance confirm the revised budget by Friday?
+Rahul: The next review meeting will be on 26 October.
