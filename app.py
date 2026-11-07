@@ -80,6 +80,39 @@ div[data-testid="stMetric"] [data-testid="stMetricValue"]{font-size:30px}
 hr{margin:1.4rem 0!important}
 @media(max-width:700px){.block-container{padding:1rem 1rem 3rem}.hero{padding:24px 20px}.hero:after{font-size:68px;right:4%}.hero-title{font-size:28px}}
 
+
+/* Extra product-grade polish: navigation, inputs, feedback and report surfaces */
+html{scroll-behavior:smooth}
+.stApp{background-attachment:fixed}
+.block-container{animation:mmFadeIn .48s ease both}
+@keyframes mmFadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.hero:before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:linear-gradient(180deg,#67e8f9,#a78bfa);border-radius:26px 0 0 26px}
+.hero:after{content:"✦";text-shadow:0 0 38px rgba(103,232,249,.25);animation:mmFloat 5s ease-in-out infinite}
+@keyframes mmFloat{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-9px) rotate(8deg)}}
+.stButton>button,[data-testid="stDownloadButton"] button{transition:transform .18s ease,box-shadow .18s ease,border-color .18s ease}
+.stButton>button:active,[data-testid="stDownloadButton"] button:active{transform:scale(.985)}
+[data-testid="stDownloadButton"] button{border-radius:12px;background:linear-gradient(110deg,#0e7490,#4f46e5);color:#fff;border:1px solid rgba(103,232,249,.3);font-weight:700;min-height:42px}
+[data-testid="stTabs"] [role="tablist"]{gap:7px;border-bottom:1px solid rgba(148,174,220,.18)}
+[data-testid="stTabs"] button[role="tab"]{padding:10px 14px;background:rgba(20,35,61,.6);border:1px solid rgba(148,174,220,.12);border-radius:12px 12px 0 0}
+[data-testid="stTabs"] button[aria-selected="true"]{background:linear-gradient(135deg,rgba(37,99,235,.24),rgba(124,58,237,.2));border-color:rgba(103,232,249,.34);color:#fff}
+[data-testid="stSelectbox"] div[data-baseweb="select"]>div,[data-testid="stMultiSelect"] div[data-baseweb="select"]>div{background:#0d192d;border-color:#2b4164;border-radius:12px}
+[data-testid="stFileUploader"] section{border-radius:12px}
+[data-testid="stAlert"]{border-radius:14px;border:1px solid rgba(148,174,220,.18)}
+[data-testid="stExpander"]{border:1px solid rgba(148,174,220,.16);border-radius:14px;background:rgba(17,29,52,.48);overflow:hidden}
+[data-testid="stExpander"] summary{font-weight:600}
+[data-testid="stProgressBar"]>div{background:rgba(103,232,249,.12);border-radius:999px}
+[data-testid="stProgressBar"]>div>div{background:linear-gradient(90deg,#22d3ee,#818cf8,#a78bfa);border-radius:999px}
+[data-testid="stSidebar"] .stRadio [role="radiogroup"] label{padding:9px 11px;border-radius:10px;transition:background .18s ease}
+[data-testid="stSidebar"] .stRadio [role="radiogroup"] label:hover{background:rgba(103,232,249,.08)}
+.stTextInput input,.stTextArea textarea{transition:border-color .18s ease,box-shadow .18s ease}
+.stTextArea textarea{line-height:1.65}
+[data-testid="stMetric"]{transition:transform .2s ease,border-color .2s ease}
+[data-testid="stMetric"]:hover{transform:translateY(-3px);border-color:rgba(103,232,249,.35)}
+.panel,.task,.decision,.question{backdrop-filter:blur(12px)}
+.stMarkdown a{color:#67e8f9;text-decoration:none}
+.stMarkdown a:hover{text-decoration:underline}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
 </style>
 """, unsafe_allow_html=True)
 
