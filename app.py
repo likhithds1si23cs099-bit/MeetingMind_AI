@@ -52,6 +52,34 @@ div[data-testid="stMetric"] [data-testid="stMetricValue"] { color:#fff !importan
 .task { border:1px solid var(--line); background:rgba(22,35,60,.72); border-radius:12px; padding:12px 14px; margin:8px 0; }
 .question { border-left:3px solid #e6ad62; padding:9px 13px; background:rgba(230,173,98,.08); border-radius:0 10px 10px 0; margin:8px 0; }
 hr { border-color:var(--line) !important; }
+
+/* MeetingMind AI — refined responsive dashboard */
+:root{--accent:#67e8f9;--violet:#a78bfa;--panel:#111d34;--line:rgba(148,174,220,.18)}
+.stApp{background:radial-gradient(ellipse at 12% 0%,rgba(59,130,246,.18),transparent 34%),radial-gradient(ellipse at 88% 8%,rgba(139,92,246,.13),transparent 30%),linear-gradient(145deg,#070d19 0%,#0b1426 55%,#0a1020 100%)}
+.block-container{max-width:1500px;padding-top:2rem;padding-bottom:4rem}
+.hero{position:relative;overflow:hidden;background:linear-gradient(115deg,rgba(37,99,235,.24),rgba(124,58,237,.18)),linear-gradient(135deg,#142440,#101a31);border:1px solid rgba(103,232,249,.2);border-radius:26px;padding:34px 36px;margin:0 0 28px;box-shadow:0 22px 65px rgba(0,0,0,.22)}
+.hero:after{content:"✦";position:absolute;right:7%;top:8%;font-size:110px;color:rgba(103,232,249,.08);font-weight:700;pointer-events:none}
+.eyebrow{color:#67e8f9;font-size:11px;letter-spacing:2.8px}
+.hero-title{font-size:clamp(27px,4vw,42px);line-height:1.12;letter-spacing:-1.4px;margin:10px 0 12px}
+.hero-sub{font-size:15px;max-width:720px;line-height:1.7}
+.pill{padding:6px 12px;border-radius:999px;background:rgba(103,232,249,.08);border-color:rgba(103,232,249,.22);color:#b9f4ff}
+.panel{border-radius:20px;padding:24px;background:linear-gradient(145deg,rgba(20,35,61,.96),rgba(12,22,40,.96));box-shadow:0 16px 42px rgba(0,0,0,.16)}
+.section-title{font-size:21px}
+div[data-testid="stMetric"]{min-height:116px;display:flex;flex-direction:column;justify-content:center;border-radius:18px;background:linear-gradient(145deg,rgba(25,44,76,.98),rgba(14,26,47,.98));border:1px solid rgba(103,232,249,.14);box-shadow:0 12px 30px rgba(0,0,0,.13)}
+div[data-testid="stMetric"] [data-testid="stMetricValue"]{font-size:30px}
+.stButton>button{border-radius:12px;min-height:43px;background:linear-gradient(110deg,#2563eb,#7c3aed);border:1px solid rgba(165,180,252,.35);box-shadow:0 8px 22px rgba(79,70,229,.2);transition:all .18s ease}
+.stButton>button:hover{transform:translateY(-2px);box-shadow:0 12px 28px rgba(79,70,229,.32);border-color:#67e8f9}
+.stTextInput input,.stTextArea textarea{border-radius:13px!important;background:#0d192d!important;border:1px solid #2b4164!important}
+.stTextInput input:focus,.stTextArea textarea:focus{border-color:#67e8f9!important;box-shadow:0 0 0 3px rgba(103,232,249,.12)!important}
+[data-testid="stFileUploader"]{border-radius:16px;background:rgba(18,31,54,.65);border:1px dashed rgba(103,232,249,.4)}
+[data-testid="stTabs"] button{border-radius:10px 10px 0 0;font-weight:600}
+.decision,.task,.question{border-radius:13px;padding:14px 16px;margin:10px 0;background:rgba(19,35,60,.75);border:1px solid rgba(148,174,220,.13)}
+.decision{border-left:4px solid #a78bfa}.task{border-left:4px solid #22d3ee}.question{border-left:4px solid #fbbf24}
+[data-testid="stSidebar"]{background:linear-gradient(180deg,#080f1e,#0d1930);border-right:1px solid rgba(148,174,220,.14)}
+[data-testid="stSidebar"] .stRadio label{padding:5px 0}
+hr{margin:1.4rem 0!important}
+@media(max-width:700px){.block-container{padding:1rem 1rem 3rem}.hero{padding:24px 20px}.hero:after{font-size:68px;right:4%}.hero-title{font-size:28px}}
+
 </style>
 """, unsafe_allow_html=True)
 
